@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.background{
+  background: url("./Images/bgc.jpg") no-repeat center center fixed ;
+  background-size: cover;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.login{
+  width: 25%;
+  position: absolute;
+  right: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+  border-radius: 20px;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.travel{
+  height: 500px;
+  display: block;
+  margin:10px auto;
+  
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signup{
+  margin-top: 30px;
+  width: 40%;
+  background-color: #abc2e8;
+  padding : 15px;
 }
